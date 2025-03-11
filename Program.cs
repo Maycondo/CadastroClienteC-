@@ -110,16 +110,15 @@ namespace CadastroClientes
 
             if(cliente != null)
             {
-                
+                clientes.Remove(cliente);
+                Console.WriteLine("Cliente excluido com sucesso.");
+            }
+            else
+            {
+                Console.WriteLine("Cliente nao encotrado.");
             }
         }
-
-
-
-
     }
-  
-
   class Cliente
   {
     public string Nome { get; set; }
