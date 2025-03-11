@@ -13,7 +13,7 @@ namespace CadastroClientes
         static void Main(string[] args)
         {
             bool executando = true;
-
+            
             while (executando)
             {
                 Console.WriteLine("Selecione uma opção: ");
