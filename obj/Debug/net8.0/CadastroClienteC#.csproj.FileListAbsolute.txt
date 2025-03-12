@@ -1,0 +1,15 @@
+/home/maycon/Documentos/CadastroClienteC#/bin/Debug/net8.0/CadastroClienteC#
+/home/maycon/Documentos/CadastroClienteC#/bin/Debug/net8.0/CadastroClienteC#.deps.json
+/home/maycon/Documentos/CadastroClienteC#/bin/Debug/net8.0/CadastroClienteC#.runtimeconfig.json
+/home/maycon/Documentos/CadastroClienteC#/bin/Debug/net8.0/CadastroClienteC#.dll
+/home/maycon/Documentos/CadastroClienteC#/bin/Debug/net8.0/CadastroClienteC#.pdb
+/home/maycon/Documentos/CadastroClienteC#/obj/Debug/net8.0/CadastroClienteC#.GeneratedMSBuildEditorConfig.editorconfig
+/home/maycon/Documentos/CadastroClienteC#/obj/Debug/net8.0/CadastroClienteC#.AssemblyInfoInputs.cache
+/home/maycon/Documentos/CadastroClienteC#/obj/Debug/net8.0/CadastroClienteC#.AssemblyInfo.cs
+/home/maycon/Documentos/CadastroClienteC#/obj/Debug/net8.0/CadastroClienteC#.csproj.CoreCompileInputs.cache
+/home/maycon/Documentos/CadastroClienteC#/obj/Debug/net8.0/CadastroClienteC#.sourcelink.json
+/home/maycon/Documentos/CadastroClienteC#/obj/Debug/net8.0/CadastroClienteC#.dll
+/home/maycon/Documentos/CadastroClienteC#/obj/Debug/net8.0/refint/CadastroClienteC#.dll
+/home/maycon/Documentos/CadastroClienteC#/obj/Debug/net8.0/CadastroClienteC#.pdb
+/home/maycon/Documentos/CadastroClienteC#/obj/Debug/net8.0/CadastroClienteC#.genruntimeconfig.cache
+/home/maycon/Documentos/CadastroClienteC#/obj/Debug/net8.0/ref/CadastroClienteC#.dll

@@ -13,25 +13,28 @@ namespace CadastroClientes
         static void Main(string[] args)
         {
             bool executando = true;
-            
+
+            /* Uma variável executando é criada e definida como true para manter um loop infinito até que usuário escolha sair */
             while (executando)
             {
+                /* Um menu de opções é exibido para usuário */
                 Console.WriteLine("Selecione uma opção: ");
                 Console.WriteLine("1 - Adicionar cliente");
                 Console.WriteLine("2 - Visulizar clientes");
                 Console.WriteLine("3 - Editar cliente ");
-                Console.WriteLine("4 - Excluir cliiente ");
+                Console.WriteLine("4 - Excluir cliente ");
                 Console.WriteLine("5 - Sair");
 
                 int opcao = Convert.ToInt32(Console.ReadLine());
-
+                
+                /* A escolha do usuário é tratada por um switch case, que chama dos métodos */
                 switch (opcao)
                 {
                     case 1:
                         AdicionarCliente();
                         break;
                     case 2:
-                        VisulizarCliente();
+                        VisualizarCliente();
                         break;
                     case 3:
                         EditarCliente();
@@ -49,7 +52,8 @@ namespace CadastroClientes
             }
 
         }
-
+        
+        /* Solicita ao usuário o nome e o e-mail do cliente */
         static void AdicionarCliente()
         {
             Console.WriteLine("Digite o nome do cliente: ");
@@ -64,9 +68,10 @@ namespace CadastroClientes
             Console.WriteLine("Cliente adicionado com sucesso.");
         }
 
-
-        static void VisulizarCliente()
-        {
+        /* Exibi todos  os cliente cadastrado  */
+        static void VisualizarCliente()
+        {   
+            /* Percorre todos os dados com Foreach */
             foreach(Cliente cliente in clientes)
             {
                 Console.WriteLine($"Nome: {cliente.Nome}");
@@ -77,10 +82,10 @@ namespace CadastroClientes
 
         static void EditarCliente() 
         {
-            Console.WriteLine("Digite o nome do cliente quue deseja editar: ");
+            Console.WriteLine("Digite o nome do cliente que deseja editar: ");
             string nome = Console.ReadLine() ?? string.Empty;
 
-            Cliente cliente = clientes.Find(c => c.Nome == nome)!;
+            Cliente? cliente = clientes.Find(c => c.Nome == nome)!;
 
             if (cliente != null)
             {
